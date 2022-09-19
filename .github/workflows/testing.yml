@@ -15,4 +15,5 @@ jobs:
           node-version: 18.x
           cache: 'npm'
       - run: npm install
+      - run: echo "lalala"
       - run: npm run test
